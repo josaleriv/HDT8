@@ -8,7 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.PriorityQueue;
 /**
- *
+ *se importan las librerias necesarias 
  * @author joserivera
  */
 public class driverHDT8 {
@@ -43,13 +43,13 @@ public class driverHDT8 {
             System.out.println("\nLista ordenada con heap:\n");
             int x = 4;
             while(x !=0){
-                System.out.println("   "+heap.remove().toString());
+                System.out.println("   "+heap.remove().toString());//se imprime la lista ordenada con heap
 		x--;
             }
             System.out.println("\nLista ordenada con JCF:\n");
             int y = 4;
             while(y !=0){
-                System.out.println("   "+queue.remove().toString());
+                System.out.println("   "+queue.remove().toString());//lista ordenada con JCF
 		y--;
             }
         }

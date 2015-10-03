@@ -5,7 +5,7 @@
  */
 package hdt8;
 /**
- * 
+ * La interfaz de priority queue que contiene las operaciones basicas 
  * @author joserivera
  * @param <E> 
  */

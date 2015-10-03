@@ -5,7 +5,7 @@ package hdt8;
 
 import java.util.Vector;
 /**
- * 
+ * Clase VectorHeap que almacana la infromacion del archivo.txt en un vector organizado de manera heap
  * @author joserivera
  * @param <E> 
  */
