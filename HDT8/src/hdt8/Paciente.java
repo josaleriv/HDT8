@@ -49,7 +49,7 @@ public class Paciente implements Comparable<Paciente>
     }
     
     /**
-     *
+     *Conv
      * @return
      */
     public String getCodigo(){

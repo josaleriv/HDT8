@@ -14,6 +14,7 @@ import java.util.PriorityQueue;
 public class driverHDT8 {
 
     /**
+     * main del programa, se utilizan las clases proprityqueue (interfaz) y vectorheap
      * @param args the command line arguments
      */
     public static void main(String[] args) {
