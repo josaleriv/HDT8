@@ -11,8 +11,24 @@ package hdt8;
  */
 public class Paciente implements Comparable<Paciente>
 {    
-    protected String codigo, nombre, sintoma;
+    protected String codigo,
+
+    /**
+     *
+     */
+    nombre,
+
+    /**
+     *
+     */
+    sintoma;
     
+    /**
+     *
+     * @param nombre
+     * @param sintoma
+     * @param codigo
+     */
     public Paciente(String nombre, String sintoma, String codigo){
         this.nombre=nombre;
         this.sintoma=sintoma;
@@ -24,6 +40,10 @@ public class Paciente implements Comparable<Paciente>
         return codigo.compareTo(enfermo.getCodigo());
     }
     
+    /**
+     *
+     * @return
+     */
     public String getCodigo(){
         return codigo;
     }
