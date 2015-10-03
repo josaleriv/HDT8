@@ -16,7 +16,15 @@ public class Paciente implements Comparable<Paciente>
     /**
      *
      */
+
+    /**
+     *
+     */
     nombre,
+
+    /**
+     *
+     */
 
     /**
      *
