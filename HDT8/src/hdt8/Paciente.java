@@ -9,32 +9,20 @@ package hdt8;
  *
  * @author joserivera
  */
-public class Paciente implements Comparable
-{
-    private String firstName, lastName;
+public class Paciente implements Comparable<Paciente>
+{    
+    protected String codigo;
     
-    public int compareTo (Object other)
-    {
-        int result;
-
-        String otherFirst = ((Paciente)other).getFirstName();
-        String otherLast = ((Paciente)other).getLastName();
-
-        if (lastName.equals(otherLast))
-           result = firstName.compareTo(otherFirst);
-        else
-           result = lastName.compareTo(otherLast);
-
-        return result;
-    }   
-    
-    public String getFirstName ()
-    {
-       return firstName;
+    public String getCodigo(){
+        return this.codigo;
     }
-
-    public String getLastName ()
-    {
-       return lastName;
+    public String toString(String nombre, String sintoma, String codigo){
+        return (nombre+", "+sintoma+", "+codigo);
+    }
+    
+    @Override
+    public int compareTo(Paciente p){
+        Paciente enfermo = (Paciente)p;
+        return codigo.compareTo(enfermo.getCodigo());
     }
 }
