@@ -27,7 +27,7 @@ public class driverHDT8 {
         Paciente paciente;
 	String [] dato;
         try{
-            BufferedReader br = new BufferedReader(new FileReader(pacientes));
+            BufferedReader br = new BufferedReader(new FileReader(pacientes));//se lee el .txt y se separa el string en varios strings los cuales se guaradan como objetos
             System.out.println("Lista sin ordenar:\n");
             try {
                 for(String line; (line = br.readLine()) != null;){

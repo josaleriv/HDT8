@@ -6,7 +6,7 @@
 package hdt8;
 
 /**
- *
+ *Clase Paciente, tiene variables de codigo nombre y sintoma 
  * @author joserivera
  */
 public class Paciente implements Comparable<Paciente>
