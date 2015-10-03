@@ -5,6 +5,7 @@
  */
 package hdt8;
 
+import java.util.Vector;
 /**
  * 
  * @author joserivera
@@ -20,6 +21,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
 	{
 		data = new Vector<E>();
 	}
+
 	public VectorHeap(Vector<E> v)
 	// post: constructs a new priority queue from an unordered vector
 	{
@@ -119,3 +121,23 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>
 		if (data.size() > 1) pushDownRoot(0);
 		return minVal;
 	}
+
+    public E getFirst() {
+        return data.firstElement();
+    }
+
+    @Override
+    public boolean isEmpty() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int size() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void clear() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
