@@ -32,7 +32,7 @@ public class Paciente implements Comparable<Paciente>
     sintoma;
     
     /**
-     *
+     *se crean los variables que tiene cada paciente (strings) 
      * @param nombre
      * @param sintoma
      * @param codigo
@@ -49,7 +49,7 @@ public class Paciente implements Comparable<Paciente>
     }
     
     /**
-     *Conv
+     *Se utiliza para traer el codigo los cuales se comparan para determinar prioridad
      * @return
      */
     public String getCodigo(){
